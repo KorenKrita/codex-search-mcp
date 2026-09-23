@@ -1,0 +1,17 @@
+{
+  "name": "codex-search-mcp",
+  "version": "1.0.0",
+  "description": "Stdio MCP server that exposes Codex web search and multi-step research to any MCP client.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "start": "node src/server.ts",
+    "test": "node --test test/server.test.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0",
+    "zod": "4.1.5"
+  }
+}
